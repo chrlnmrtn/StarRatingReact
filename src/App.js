@@ -20,12 +20,9 @@ export default function App() {
       }}
       />
 
-      <StarRating
-      style={{ backgroundColor: "lightblue" }}
-      onDoubleClick={e => alert("double click")}/>
 
       <AddColorForm 
-      onNewColor={(title, color) => {
+        onNewColor={(title, color) => {
         const newColors = [
         ...colors,
         {

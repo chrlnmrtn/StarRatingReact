@@ -4,7 +4,7 @@ import React, { useState } from "react";
 export default function AddColorForm({ onNewColor = f => f }) {
     const [title, setTitle] = useState("");
     const [color, setColor] = useState("#000000");
-const submit = e => { e.preventDefault();
+    const submit = e => { e.preventDefault();
     onNewColor(title, color);
     setTitle("");
     setColor(""); }
