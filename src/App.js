@@ -2,7 +2,6 @@ import React, {useState} from "react";
 
 import colorData from "./color-data.json";
 import ColorList from "./ColorList";
-import StarRating from "./StarRating";
 import AddColorForm from "./AddColorForm";
 import { v4 } from "uuid";
 
